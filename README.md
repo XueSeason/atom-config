@@ -6,3 +6,9 @@ My Atom Editor config file.
 ```
 apm install --packages-file apm.package
 ```
+
+# How to output atom plugins
+
+```
+apm list --installed --bare > apm.package
+```
